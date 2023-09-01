@@ -1,0 +1,102 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    /*grid-template-rows: auto 1fr auto;*/
+}
+
+.container{
+    
+    justify-content: center;
+    background-color: #D55039;
+    overflow: hidden;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.parte1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.parte2{
+    margin-bottom: 1em;;
+   
+    
+
+}
+
+.col{
+    margin: 1em;
+    padding: 1em;
+
+}
+
+#col1{
+    float: left;
+    margin-top: 32px;
+    margin-left: 48px;;
+    color: white;
+    font-size: 14px;
+    font-style: arial;
+}
+
+#col2{
+    float: left;
+    background-color: pink;
+    margin-left:
+}
+
+#col3{
+    margin-top: 32px;
+    float: right;
+    margin-right: 48px;;
+    color: white;
+    font-size: 14px;
+    font-style: arial;
+}
+
+.h4{
+    
+    
+}
+
+#abajo{
+    text-align: center; 
+    
+}
+
+.button {
+    background:none;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+
+  .buttonAb{
+    margin: 15px 32px;
+    font-size: 14px;
+  }
+
+  .buttonUp{
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  .buttonApp{
+    font-size: 20px !important;
+  }
+
+.button:hover{
+    color: black;
+  }
+
+footer{
+    text-shadow: 0px 0px 10px rgb(146, 146, 146);
+    margin-top: auto;
+}
