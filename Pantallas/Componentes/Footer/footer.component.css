@@ -21,10 +21,7 @@ body{
 }
 
 .parte2{
-    margin-bottom: 1em;;
-   
-    
-
+    margin-bottom: 1em;
 }
 
 .col{
@@ -34,41 +31,42 @@ body{
 }
 
 #col1{
-    float: left;
-    margin-top: 32px;
-    margin-left: 48px;;
+    position: absolute;
+    left: 30px; 
+    top: 87%; 
+    transform: translateY(-50%); 
     color: white;
     font-size: 14px;
     font-style: arial;
 }
 
 #col2{
-    float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    transform: translateX(100%); 
     background-color: pink;
    
 }
 
 #col3{
-    margin-top: 32px;
-    float: right;
-    margin-right: 48px;;
+    position: absolute;
+    right: 70px; 
+    top: 85%; 
+    transform: translateY(-50%); 
     color: white;
     font-size: 14px;
     font-style: arial;
 }
 
-
-
 #abajo{
     text-align: center; 
-    
 }
 
 .button {
     background:none;
     border: none;
     color: white;
-    
     text-align: center;
     text-decoration: none;
     display: inline-block;
